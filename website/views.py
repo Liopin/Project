@@ -5,13 +5,13 @@ from django. http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return HttpResponse('<h1>home<h1>')
+    return render(request,'website/home.html')
 
 def services(request):
-    return HttpResponse('<h1>services<h1>')
+    return render(request,'website/services.html')
 
 def team(request):
-    return HttpResponse('<h1>equipes<h1>')
+    return render(request,'website/team.html')
 
 def contact(request):
-    return HttpResponse('<h1>contact<h1>')
+    return render(request,'website/contact.html')
