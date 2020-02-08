@@ -1,0 +1,16 @@
+/*--- Navbar ---*/
+
+.navbar-nav > li > a {
+    font-family: var(--primary-font);
+    color:var(--primary-colors);
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.navbar-nav > li > a:hover{
+   color: #6b6b6b;
+}
+
+.navbar-brand{
+    font-family: var(--primary-font);
+    font-weight: 600;
+}

@@ -1,0 +1,23 @@
+/*--- Footer ---*/
+footer ul h3{
+    font-size: 1em;
+    font-weight: 600;
+}
+footer ul li{
+    display: inline;
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+}
+.fab{
+    font-size: 1.8em;
+    color:var(--social-media-icons);
+}
+
+#social_media li{
+    margin-right: 8px;
+}
+#site_map li a{
+    color:var(--primary-colors);
+    margin-right: 8px;
+}
