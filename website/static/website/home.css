@@ -1,0 +1,37 @@
+
+/*--- Mission section ---*/
+.mission{
+    margin-bottom: 50px;
+}
+.mission h2{
+    margin-bottom: 25px;
+}
+
+/*--- Mission section ---*/
+.services{
+    margin-bottom: 50px;
+    padding: 35px;
+    background: linear-gradient(208deg, #f7f7f7 56%,rgba(122,122,122,0.24)100%);
+}
+
+.services h2{
+    margin-bottom: 25px;
+}
+
+.services h3{
+    font-size: 1em;
+}
+
+.services a{
+    color: var(--primary-color);
+}
+
+.services a{
+    color: var(--primary-color);
+}
+
+.services a:hover{
+    color:var(--primary-color);
+    text-decoration: none;
+}
+
