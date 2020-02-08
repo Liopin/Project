@@ -1,10 +1,15 @@
 @import 'footer.css';
 @import 'nav.css';
+@import 'header.css';
+
 
 
 /* ----- VARIABLES ------*/
 :root{
-    --primary-colors:#333;
+    --primary-color:#333;
+}
+:root{
+    --header-heading-color:#fff;
 }
 :root{
     --social-media-icons:#f7a01f;
@@ -12,14 +17,20 @@
 :root{
     --primary-font:'Poppins';
 }
+:root{
+    --secondary-font:'Montserrat';
+}
+
 
 /* ----- Base components ------*/
 h1,h2,h3{
     font-family: 'Poppins';
-    color: var(--primary-colors);
+    color: var(--primary-color);
 }
 a{
     text-decoration: none;
 }
+
+
 
 

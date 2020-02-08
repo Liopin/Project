@@ -1,0 +1,30 @@
+/*--- Header ---*/
+.container-fluid{
+    background: linear-gradient(216deg,#f7a01f 0%, #fad24a 59%);
+    margin-bottom: 75px;
+}
+.col{
+    padding: 50px;
+}
+
+header{
+    margin-bottom: 75px;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: var(--header-heading-color);
+}
+
+header p {
+    font-family: var(--secondary-font);
+    line-height: 1.6em;
+}
+header a {
+    padding: 10px;
+    border: 1px solid #2ea3f2;
+}
+header a:hover{
+    color: #2ea3f2;
+    text-decoration: none;
+}
