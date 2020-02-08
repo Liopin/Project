@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ProtectAI | </title>
-</head>
-<body>
-    <h1>services page!</h1>
-</body>
-</html>
+{% extends "website/base.html" %}
+{% block content %}
+    <h1>services</h1>
+    {% for service in services %}
+        <h1>{{ service.title }}</h1>
+        <p>{{ service.content }}</p>
+    {% endfor %}
+{% endblock content %}
