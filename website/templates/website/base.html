@@ -1,9 +1,12 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'website/style.css' %}" type="text/css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Google Fonts -->
@@ -14,30 +17,59 @@
     <title>ProtectAI | </title>
 </head>
 <body>
-    {% block content %}{% endblock %}
+    <!--  Navigation  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white static-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+                <img src="http://placehold.it/150x50?text=Logo" alt="">
+                ProtectAI
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="{% url 'website-home' %}">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'website-services' %}">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'website-team' %}">team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'website-contact' %}">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
+    {% block content %}{% endblock %}
+    <!--  Footer  -->
     <footer class="container">
         <div class="row">
             <div class="col">
-                <h3>Location</h3>
                 <ul id="location">
+                    <h3>Location</h3>
                     <li>622, Presidency Tower, Panama St, New York</li>
                     <li>(+33) 00 00 00 00</li>
                     <li>contact@protectai.fr</li>
                 </ul>
             </div>
             <div class="col">
-                <h3>Follow Us</h3>
                 <ul id="social_media">
+                    <h3>Follow Us</h3>
                     <li><a href="https://fr-fr.facebook.com/" target="_blanck"><i class="fab fa-facebook-square"></i></a></li>
                     <li><a href="https://twitter.com/" target="_blanck"><i class="fab fa-twitter-square"></i></a></li>
                     <li><a href="fr.linkedin.com" target="_blanck"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
             </div>
             <div class="col">
-                <h3>Site Map</h3>
                 <nav>
-                    <ul>
+                    <ul id="site_map">
+                        <h3>Site Map</h3>
                         <li><a href="">Home</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Team</a></li>
