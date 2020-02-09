@@ -1,9 +1,10 @@
 /*--- Contact section ---*/
 .contact{
-    margin-bottom:50px;
+    background: linear-gradient(216deg,#f7a01f 0%, #fad24a 59%);
+    margin-bottom: 75px;
+    padding:35px;
     color:#fff;
 }
-
 .contact h2{    
     color: #fff;
 }

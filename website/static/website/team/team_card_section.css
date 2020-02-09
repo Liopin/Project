@@ -1,0 +1,7 @@
+section .team{
+    margin-bottom: 100px;
+}
+
+.team i{
+    font-size: 1em;
+}

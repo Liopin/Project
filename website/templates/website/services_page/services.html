@@ -1,0 +1,16 @@
+{% extends "website/base/base.html" %}
+
+{% block content %}
+    
+    <!-- Header -->
+    {% block header %}
+        {% include "website/services_page/services_section/header_section.html" %}
+    {% endblock header %}
+
+    <!-- Services -->
+
+    {% block services %}
+        {% include "website/services_page/services_section/services_section.html" %}
+    {% endblock services %}
+
+{% endblock content %}

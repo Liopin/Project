@@ -23,10 +23,10 @@ def services(request):
     context = {
         'services' : services
     }
-    return render(request,'website/services.html', context)
+    return render(request,'website/services_page/services.html', context)
 
 def team(request):
-    return render(request,'website/team.html')
+    return render(request,'website/team_page/team.html')
 
 def contact(request):
     return render(request,'website/contact.html')

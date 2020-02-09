@@ -5,14 +5,17 @@
 }
 
 .founders h2{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .founders h3{
     font-size: 1em;
 }
-
+.founders i{
+    font-size: 0.8em;
+}
 .founders a{
+    margin-top: 20px;
     color: var(--primary-color);
 }
 

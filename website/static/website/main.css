@@ -1,17 +1,12 @@
-/* ----- Base ------*/
-
 @import 'base/footer.css';
 @import 'base/nav.css';
-@import 'header.css';
-
-/* ----- Homepage ------*/
-
+@import 'base/header.css';
 @import 'home/mission_section.css';
 @import 'home/services_section.css';
 @import 'home/founders_section.css';
 @import 'home/contact_section.css';
-
-
+@import 'service/services.css';
+@import 'team/team_card_section.css';
 
 /* ----- VARIABLES ------*/
 :root{
