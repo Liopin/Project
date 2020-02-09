@@ -29,4 +29,4 @@ def team(request):
     return render(request,'website/team_page/team.html')
 
 def contact(request):
-    return render(request,'website/contact.html')
+    return render(request,'website/contact_page/contact.html')
