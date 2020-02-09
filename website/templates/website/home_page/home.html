@@ -1,0 +1,30 @@
+{% extends "website/base/base.html" %}
+
+{% block content %}
+    
+    <!-- Header -->
+    {% block header %}
+        {% include "website/home_page/home_sections/header_section.html" %}
+    {% endblock header %}
+    
+    <!-- Mission -->
+    {% block mission %}
+        {% include "website/home_page/home_sections/mission_section.html" %}
+    {% endblock mission %}
+    
+    <!-- Services Section -->
+    {% block services %}
+        {% include "website/home_page/home_sections/services_section.html" %}
+    {% endblock services %}
+    
+    <!-- Founders Section -->
+    {% block founders %}
+        {% include "website/home_page/home_sections/founders_section.html" %}
+    {% endblock founders %} 
+    
+    <!-- Contact Section -->
+    {% block contact %}
+        {% include "website/home_page/home_sections/contact_section.html" %}
+    {% endblock contact %}
+
+{% endblock content %}

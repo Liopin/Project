@@ -1,0 +1,21 @@
+/*--- Contact section ---*/
+.contact{
+    margin-bottom:50px;
+    color:#fff;
+}
+
+.contact h2{    
+    color: #fff;
+}
+
+.contact_button a{
+    padding:15px;
+    color:#fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.contact a:hover{
+    color:#fff;
+    text-decoration: none;
+}

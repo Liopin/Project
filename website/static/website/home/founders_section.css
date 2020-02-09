@@ -1,0 +1,22 @@
+/*--- Founders section ---*/
+.founders{
+    margin-bottom: 50px;
+    padding: 35px;
+}
+
+.founders h2{
+    margin-bottom: 25px;
+}
+
+.founders h3{
+    font-size: 1em;
+}
+
+.founders a{
+    color: var(--primary-color);
+}
+
+.founders a:hover{
+    color:var(--primary-color);
+    text-decoration: none;
+}

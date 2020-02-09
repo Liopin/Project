@@ -17,7 +17,7 @@ services = [
 # Create your views here.
 
 def home(request):
-    return render(request,'website/home.html')
+    return render(request,'website/home_page/home.html')
 
 def services(request):
     context = {

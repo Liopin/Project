@@ -1,7 +1,15 @@
-@import 'footer.css';
-@import 'nav.css';
+/* ----- Base ------*/
+
+@import 'base/footer.css';
+@import 'base/nav.css';
 @import 'header.css';
-@import 'home.css';
+
+/* ----- Homepage ------*/
+
+@import 'home/mission_section.css';
+@import 'home/services_section.css';
+@import 'home/founders_section.css';
+@import 'home/contact_section.css';
 
 
 
