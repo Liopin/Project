@@ -1,17 +1,5 @@
 from django.shortcuts import render
-from django.template import Context, Template
-from django. http import HttpResponse
-
-services = [
-    {
-        'title': 'Service 1',
-        'content': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-    },
-    {
-        'title': 'Service 2',
-        'content': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-    }
-]
+from .models import Service
 
 
 # Create your views here.
@@ -21,7 +9,7 @@ def home(request):
 
 def services(request):
     context = {
-        'services' : services
+        'services' : Service.objects.all()
     }
     return render(request,'website/services_page/services.html', context)
 

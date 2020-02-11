@@ -1,12 +1,13 @@
 <section class="container">
-    <div class="row">
-        <div class="col services_page">
-            <h2>Service</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est ut quod voluptatem. Consequatur commodi ipsa non soluta fugit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut rem exercitationem, eaque at qui quos beatae..</p>
+    {% for service in services %}
+        <div class="row">
+            <div class="col services_page">
+                <h2>{{ service.title }}</h2>
+                <p>{{ service.content }}</p>
+            </div>
+            <div class="col">
+                <img src="{{ service.image.url }}" width="500px" height="300px" alt="">
+            </div>
         </div>
-        <div class="col">
-            <img src="#" alt="">
-        </div>
-    </div>
+    {% endfor %}
 </section>
