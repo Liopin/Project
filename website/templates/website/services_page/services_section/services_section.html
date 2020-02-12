@@ -1,12 +1,12 @@
 <section class="container">
     {% for service in services %}
-        <div class="row">
-            <div class="col services_page">
+        <div class="row services_page">
+            <div class="col">
                 <h2>{{ service.title }}</h2>
                 <p>{{ service.content }}</p>
             </div>
             <div class="col">
-                <img src="{{ service.image.url }}" width="500px" height="300px" alt="">
+                <img class="rounded" src="{{ service.image.url }}" width="500px" height="300px" alt="">
             </div>
         </div>
     {% endfor %}
